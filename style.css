@@ -1,0 +1,73 @@
+
+        .proto {
+          border-radius: 100%;
+          width: 10%;
+          height: 80%;
+          display: inline-block;
+          animation: slidein 5s infinite ;
+        }
+        
+        @keyframes slidein {
+          0% {
+            background-color: #a37063;
+          }
+          50% {
+            background-color: #49b675;
+          }
+          100% {
+            background-color: #8d847f;
+          }
+        }
+        
+        html,
+        body {
+          height: 30%;
+        }
+        
+        .deute {
+          border-radius: 100%;
+          width: 10%;
+          height: 80%;
+          display: inline-block;
+          animation: change 3s infinite;
+        }
+        
+        @keyframes change {
+          0% {
+            background-color: #49b675;
+          }
+          100% {
+            background-color: #a37063;
+          }
+        }
+        
+        html,
+        body {
+          height: 30%;
+        }
+
+    
+        .tritano{
+          border-radius: 100%;
+          width: 10%;
+          height: 80%;
+          
+          display: inline-block;
+          animation: pulse 4s infinite;
+        }
+        
+        @keyframes pulse {
+          0% {
+            background-color: #fce903;
+          }
+          100% {
+            background-color: #0e4bef;
+          }
+        }
+        
+        html,
+        body {
+          height: 30%;
+        }
+      
+  
